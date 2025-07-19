@@ -13,7 +13,7 @@ import requests
 load_dotenv()
 
 currency_pair_left = input('Введите левую пару(USD/RUB) ') or 'USD/RUB'
-currency_pair_right = input('Введите левую пару(JPY/RUB)  ') or 'JPY/RUB'
+currency_pair_right = input('Введите правую пару(JPY/RUB)  ') or 'JPY/RUB'
 from_date_input = str(input('Введите дату начала(2025-06-01) ')) or '2025-06-01'
 to_date_input = str(input('Введите дату окончания(2025-06-30) ')) or '2025-06-30'
 
